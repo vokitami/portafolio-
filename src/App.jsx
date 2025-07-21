@@ -12,12 +12,12 @@ function App() {
   const projects = [
     {title: 'portafolio HTML, CSS Y JS - VANILLA',
       date: '14/07/2024',
-      image: './public/img/portfolioVanilla.png',
+      image: './img/portfolioVanilla.png',
       link: 'https://vokitami.github.io/portfolio/',
     },
     {title: 'Encriptador de Textos HTML, CSS Y JS- VANILLA',
       date: '23/02/2024',
-      image: './public/img/EncriptadorTextos.png',
+      image: './img/EncriptadorTextos.png',
       link: 'https://vokitami.github.io/encriptadorDeTextos/',
     },
   ];
@@ -58,8 +58,8 @@ function App() {
       </header>
     
       <section className='max-w-6xl mx-auto flex flex-col justify-items-center md:flex-row gap-6'>
-        <div className='w-full md:max-w-[400px] md:h_[400px] overflow-hidden rounded-[7px]'>
-          <img src='./public/img/yo.jpeg' alt='photo' className='max-w-[400px] mx-auto rounded-[7px]'></img>
+        <div className='w-full md:max-w-[400px] overflow-hidden rounded-[7px]'>
+          <img src='./img/yo.jpeg' alt='photo' className='max-w-[400px] mx-auto rounded-[7px]'></img>
         </div>
         <div className='intro relative rounded-lg flex flex-col overflow-hidden rounden-xl bg-zinc-100 p-12'>
             <div aria-hidden='true'
