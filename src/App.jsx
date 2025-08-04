@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css'
 import { TbFileCv } from "react-icons/tb";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub,FaLinkedinIn} from 'react-icons/fa';
@@ -20,6 +19,16 @@ function App() {
       image: './img/EncriptadorTextos.png',
       link: 'https://vokitami.github.io/encriptadorDeTextos/',
     },
+    {title: 'User Management Web App (React + Node.js + SQLite)',
+      date: '8/03/2025',
+      image: './img/TheApp.png',
+      link: 'https://the-app-2am5.vercel.app/#/login',
+    },
+     {title: 'Fair Dice Game with HMAC Verification (Node.js)',
+      date: '27/06/2025',
+      image: './img/DiceGame.png',
+      link: 'https://github.com/vokitami/DiceGame',
+    },
   ];
 
   const skills = [
@@ -29,6 +38,7 @@ function App() {
       { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400 text-2xl drop-shadow-[2px_0_15px]" /> },
       { name: 'React + Vite', icon: <FaReact className="text-blue-300 text-2xl drop-shadow-[2px_0_15px]" /> },
       { name: 'GitHub', icon: <FaGithub className="text-white text-2xl drop-shadow-[2px_0_15px]" /> },
+
   ];
 
   const socialMedia = [
@@ -144,8 +154,6 @@ function App() {
       </div>
       
 </section>
-
-
 
     </main>
     </>
